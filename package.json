@@ -1,0 +1,48 @@
+{
+  "name": "nuxt-typescript-vuetify-project",
+  "version": "1.0.0",
+  "description": "Nuxt TypeScript Vuetify Project",
+  "author": "yoshi9518",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore ./src ./test ./stories",
+    "lint:fix": "eslint --ext .ts,.js,.vue --ignore-path .gitignore ./src ./test ./stories --fix",
+    "test": "jest",
+    "storybook": "start-storybook -c .storybook -p 6006"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.4.0",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "core-js": "^2.6.2",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.7",
+    "@nuxt/typescript-build": "^0.6.0",
+    "@nuxtjs/eslint-config-typescript": "^1.0.2",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/vuetify": "^1.0.0",
+    "@storybook/vue": "^5.3.15",
+    "@types/jest": "^25.1.4",
+    "@types/storybook__vue": "^5.2.1",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^25.1.0",
+    "nuxt-property-decorator": "^2.5.1",
+    "prettier": "^1.19.1",
+    "storybook-addon-vue-info": "^1.4.2",
+    "ts-jest": "^25.2.1",
+    "vue-jest": "^4.0.0-0"
+  }
+}
